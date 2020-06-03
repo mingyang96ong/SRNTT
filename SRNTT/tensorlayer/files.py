@@ -2,7 +2,7 @@
 # -*- coding: utf8 -*-
 
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import os
 import numpy as np
 import re

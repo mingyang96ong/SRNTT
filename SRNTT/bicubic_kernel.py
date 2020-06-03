@@ -1,7 +1,7 @@
 # calculate kernels in x an y axis for bicubic downsampling
 import numpy as np
 from math import ceil
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 def cubic(x, scale):

@@ -3,7 +3,7 @@
 
 
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import time
 from . import visualize
 from . import utils
