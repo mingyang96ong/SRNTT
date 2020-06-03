@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from .tensorlayer import *
 from .tensorlayer.layers import *
 from os.path import join, exists, split, isfile
